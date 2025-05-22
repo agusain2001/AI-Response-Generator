@@ -1,0 +1,19 @@
+# Main requirements for the AI Prototype project
+# This can be used to install all dependencies for both backend and frontend in one go.
+
+# Backend dependencies
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+google-generativeai
+# requests # Already covered by streamlit or can be listed if specific version needed
+
+# Frontend dependencies
+streamlit
+requests # Streamlit usually includes requests, but explicit is fine
+
+# Testing dependencies (optional, for development)
+pytest
+pytest-mock
+pytest-asyncio

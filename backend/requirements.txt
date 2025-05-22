@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+google-generativeai
+requests 
+# requests is added here if ai_service needs to make http calls,
+# though google-generativeai handles it. Good to have if other external calls are made.
+# For now, google-generativeai is the primary one for AI.
